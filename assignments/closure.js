@@ -3,10 +3,9 @@
 function parent(){
   const name = 'jules';
   function child(){
-    var kidName = 'Jordan'
+    const kidName = 'Jordan'
     console.log(name)
   }
-  console.log(kidName)
   child();
 }
 parent();
