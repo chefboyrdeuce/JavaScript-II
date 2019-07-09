@@ -1,5 +1,14 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
+function parent(){
+  const name = 'jules';
+  function child(){
+    const kidName = 'Jordan'
+    console.log(name)
+  }
+  child();
+}
+parent();
 
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
